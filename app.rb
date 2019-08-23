@@ -13,4 +13,8 @@ class App < Sinatra::Base
     # Write your code here!
 
   end
+
+  get '/' do 
+    "Hello World"
+  end 
 end
